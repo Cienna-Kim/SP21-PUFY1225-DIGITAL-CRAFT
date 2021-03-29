@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+    color: cornflowerblue;
+}
+h1 {
+    color: cornflowerblue;
+    font-family: sans-serif;
+}
+p {
+    font-family: monospace;
+    font-size: 150%;
+    text-align: center;
+}  
+hr {
+  border-top: 5px solid cornflowerblue;
+}
