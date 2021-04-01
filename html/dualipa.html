@@ -11,16 +11,18 @@
     </head>
     <body>
         <image>
-            <img src="../assets/dualipalogo.png" width="40%" alt="home" class="center">
+            <img src="../assets/dualipalogo.png" width="37%" alt="home" class="center">
         </image>
         
         <br>
 
-        <iframe width="840" height="472.5" src="https://www.youtube.com/embed/eP-c2AiqiUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="840" height="472.5" class="center" src="https://www.youtube.com/embed/eP-c2AiqiUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
         <br>
         <br>
-        <button name="button">Buy Now</button>    <button name="button">Enter Site</button>
+
+        <button name="button" class="center" onclick=" window.open('https://shops.ticketmasterpartners.com/studio-2054-vod','_blank')">Buy Now</button><button name="button" class="center" onclick=" window.open('https://www.dualipa.com/?frontpage=true','_blank')">Enter Site</button>
+
         <br>
         <br>
 
@@ -39,11 +41,22 @@
 
         <br>
 
-<button onclick="myFunction()">Terms</button>
-
-<div id="myDIV">
-  By submitting my information, I agree to receive personalized updates and marketing messages about Dua Lipa based on my information, interests, activities, website visits and device data and in accordance with the Privacy Policy. I understand that I can opt-out at any time by emailing <a href="mailto:privacypolicy@wmg.com">privacypolicy@wmg.com</a>.
+<div class="dropdown">
+  <button id="myBtn" class="dropbtn">Terms</button>
+  <div id="myDIV" class="dropdown-content">
+By submitting my information, I agree to receive personalized updates and marketing messages about Dua Lipa based on my information, interests, activities, website visits and device data and in accordance with the Privacy Policy. I understand that I can opt-out at any time by emailing <a href="mailto:privacypolicy@wmg.com">privacypolicy@wmg.com</a>.
+  </div>
 </div>
+
+<script>
+// Get the button, and when the user clicks on it, execute myFunction
+document.getElementById("myBtn").onclick = function() {myFunction()};
+
+/* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+</script>
 
 <script>
 function myFunction() {
