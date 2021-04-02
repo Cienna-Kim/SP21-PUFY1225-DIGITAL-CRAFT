@@ -14,54 +14,53 @@
 }
 .socials-wrapper ul li {
     display: inline-block;
-    padding: 10px;
     font-size: 20px;
+    padding: 10px;
 }
 .subscribe__form {
     font-family: "courier";
-    text-align: center;
     margin: auto;
+    text-align: center;
     width: 50%;
 }
 .subscribe__title {
     margin-bottom: 15px;
-    display: block;
     font-size: 14px;
+    display: block;
 }
 .subscribe__form form {
     margin-bottom: 16px;
 }
 .subscribe__form input[type="email"] {
-    font-family: "courier";
-    font-size: 15px;
-    width: 200px;
-    height: 30px;
     background: none;
-    color: #7f7f7f;
     border: 1px solid #fd6aa4;
     border-radius: 5px;
+    color: #7f7f7f; 
+    font-family: "courier";
+    font-size: 15px;
+    height: 30px;
     padding-left: 15px;
+    width: 200px;
 }
 .subscribe__form input[type="submit"] {
+    background: none;
+    border: 1px solid #fd6aa4;
+    color: #7f7f7f;
+    cursor: pointer;
+    border-radius: 5px;
     font-family: "courier";
     font-size: 15px;
     height: 32px;
-    background: none;
     padding: 1px;
-    color: #7f7f7f;
-    border: 1px solid #fd6aa4;
-    border-radius: 5px;
-    cursor: pointer;
 }
 .subscribe__form input[type="submit"]:hover {
     background: #fd6aa4;
     color: #000000;
 }
-
 .subscribe__terms {
+    cursor: pointer;
     display: block;
     margin-top: 16px;
-    cursor: pointer;
 }
 .subscribe__terms:after {
     content: "None";
@@ -78,83 +77,74 @@
 }
 
 body {
-    margin: 0 auto;
-    text-align: center;
     background: #000000;
     color: #7f7f7f;
     font-family: "courier";
+    margin: 0 auto;
+    text-align: center;
 }
 img {
-    max-width: 100%;
     height: auto;
+    max-width: 100%;
 }
 a:link {
-  color: white;
   background-color: transparent;
+  color: white;
   text-decoration: none;
 }
 
 a:visited {
-  color: white;
   background-color: transparent;
+  color: white;
   text-decoration: none;
 }
 
 .terms {
-  margin: 0;
-  padding: 0.5rem 1rem;
   background-color: black;
-
-  font-family: "courier", sans-serif;
-  font-size: 1rem;
-  color: gray;
-  font-weight: 300;
-  text-align: center;
-  text-decoration: none;
-
-  display: inline-block;
-  width: auto;
-
   border: none;
   border-radius: 4px;
+  color: gray;
+  display: inline-block;
+  font-family: "courier", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 0;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  width: auto;
 }
 
 .buynowbutton {
-  margin: 0;
-  padding: 1em 3.8rem;
-
+  border: none;
+  border-radius: 40px;
+  color: black;
+  display: inline-block;
   font-family: "courier", sans-serif;
   font-size: 1.05rem;
   font-style: bold;
-  color: black;
   font-weight: 300;
+  margin: 0;
+  padding: 1em 3.8rem;
   text-align: center;
   text-decoration: none;
-
-  display: inline-block;
   width: auto;
-
-  border: none;
-  border-radius: 40px;
 }
 
 .entersitebutton {
-   margin: 0;
-  padding: 1em 3.2rem;
-
+  border: none;
+  border-radius: 40px;
+  color: black;
+  display: inline-block;
   font-family: "courier", sans-serif;
   font-size: 1.05rem;
   font-style: bold;
-  color: black;
   font-weight: 300;
+  margin: 0;
+  padding: 1em 3.2rem;
   text-align: center;
   text-decoration: none;
-
-  display: inline-block;
   width: auto;
-
-  border: none;
-  border-radius: 40px;
 }
 
 .paragraph {
