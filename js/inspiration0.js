@@ -6,6 +6,8 @@ function setup(){
 // runs forever
 function draw(){
 
+	var rectWidth = 50;
+	var rectHeight = 50;
 	background("#214371");
 
 // scent bubbles
@@ -35,7 +37,7 @@ function draw(){
  	ellipse(20,110,350,200);
 
  	noStroke();
- 	fill("#000000");
+ 	fill("black");
  	ellipse(450,350,50,100);
  	noStroke();
  	fill("#0ABFC8");
@@ -49,4 +51,8 @@ function draw(){
  	noStroke();
  	fill("#7B8CC9");
  	ellipse(550,550,200,160);
+ 	noStroke();
+ 	fill("white");
+ 	ellipse(0,550,200,160);
+
 }
