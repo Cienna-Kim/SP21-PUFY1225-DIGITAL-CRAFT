@@ -55,4 +55,19 @@ function draw(){
  	fill("white");
  	ellipse(0,550,200,160);
 
+ 	// sail
+	fill("#840050");
+	beginShape();
+  	vertex(575, 50);
+	vertex(575, 250);
+	vertex(650, 250);
+	endShape(CLOSE);
+
+	fill("#C495FF");
+	beginShape();
+  	vertex(575, 50);
+	vertex(575, 220);
+	vertex(500, 220);
+	endShape(CLOSE);
+
 }
