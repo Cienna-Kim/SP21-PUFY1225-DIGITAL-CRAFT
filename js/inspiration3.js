@@ -5,9 +5,7 @@ function setup(){
 
 // runs forever
 function draw(){
-// cliff
-	var rectWidth = 50;
-	var rectHeight = 50;
+
 	background("#214371");
 
 // scent bubbles
