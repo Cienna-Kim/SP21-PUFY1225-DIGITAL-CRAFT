@@ -9,33 +9,8 @@ function setup() {
 }
 
 function draw() {
-  background("#000000");
+  background(0, g * 0.7, g);
   
-// huge blue circles
-  
-  fill (0, g * 0.7, g)
-  ellipse(xPos * 6, yPos * 6, diam * 10, diam * 10);
-  
-  fill (0, g * 0.7, g)
-  ellipse(xPos * 14, yPos * 6, diam * 10, diam * 10);
-  
-  fill (0, g * 0.7, g)
-  ellipse(xPos * 6, yPos * 14, diam * 10, diam * 10);
-  
-  fill (0, g * 0.7, g)
-  ellipse(xPos * 14, yPos * 14, diam * 10, diam * 10);
-  
-  fill (0, g * 0.7, g)
-  ellipse(xPos * 6, yPos * 0, diam * 10, diam * 10);
-  
-  fill (0, g * 0.7, g)
-  ellipse(xPos * 14, yPos * 0, diam * 10, diam * 10);
-  
-  fill (0, g * 0.7, g)
-  ellipse(xPos * 6, yPos * 18, diam * 10, diam * 10);
-  
-  fill (0, g * 0.7, g)
-  ellipse(xPos * 14, yPos * 18, diam * 10, diam * 10);
   
 // huge black circles
   
