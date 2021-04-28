@@ -1,9 +1,9 @@
 function setup() {
   createCanvas(600, 600, SVG);
   noStroke();
-  noLoop();
   frameRate(30);
   background("#01073b")
+  noLoop();
 }
 
 function draw() {
