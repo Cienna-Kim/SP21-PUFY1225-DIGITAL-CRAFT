@@ -28,5 +28,5 @@ function draw() {
       fill(random(50, 150), random(100, 255), random(240, 255), 20);
     }
   }
-  save();
+save();
 }
