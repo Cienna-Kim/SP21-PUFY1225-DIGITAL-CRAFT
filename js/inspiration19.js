@@ -1,5 +1,5 @@
 function setup() {
-  createCanvas(600, 600);
+  createCanvas(600, 600, SVG);
   noStroke();
   frameRate(30);
   background("#01073b")
@@ -27,5 +27,4 @@ function draw() {
       fill(random(50, 150), random(100, 255), random(240, 255), 20);
     }
   }
-save();
 }
